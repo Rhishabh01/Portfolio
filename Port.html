@@ -27,6 +27,16 @@
             background-color: #A1BE95;
         }
 
+        th{
+            text-align: left;
+        }
+
+       .Divs{
+        background-color: #2A3132;
+        grid-column: span;
+       }
+        
+
     </style>
 </head>
 <body>
@@ -45,36 +55,63 @@
 
 <hr>
 <div style="text-align: center;">
-    <button> Projects </button>
-    <button> Achivements </button>
-    <button> Certification  </button>
-    <button> Education </button>
-    <button> Contact Me</button>
+    <a href="#Projects"><button> Projects </button></a>
+    <a href="#Skills"><button> Skills </button></a>
+   <a href="#Certification"><button> Certifications </button></a>
+   <a href="#Education"><button> Education </button></a>
+    <a href="#Contacts"><button> Contact </button></a>
 </div>
+
+<div id="Skills">
+
+</div>
+
 <hr>
-<div>
+<div id="Projects">
+
 <h2> My Projects </h2>
+<table style="border-width: 3px;border-color:A1BE95;" border="1px" >
+    
+    <tr> <th> Project Name </th>   <th> Description</th> <th> Year </th> </tr>
+    <tr>
+        <th>Water Level Monitoring (Iot)</th>
+            <td>The IoT-Based Water Level Monitoring System is a smart solution that measures and displays the water level in a tank in real time. It uses an ultrasonic sensor to detect the distance of water from the top of the tank and calculates the water level accordingly. The measured data is shown on an LCD screen, while LED lights indicate different water level conditions (low, medium, and high). This system helps prevent water overflow and dry tank situations, making water management more efficient and automated. </td>
+        <td> 2024</td>
+        </tr>
+    <tr>
+        <th>KeyNest (A simple Password Manger App)</th>
+            <td>KeyNest is an Android-based password management and generation application designed to securely store and manage user credentials. The app allows users to save passwords for different platforms in an encrypted format and generate strong, secure passwords to enhance online security.
+It provides a simple and user-friendly interface for organizing login details while ensuring data protection through authentication mechanisms. KeyNest helps users avoid weak passwords, reduce the risk of data breaches, and manage multiple accounts efficiently from a single platform.</td>
+
+<td> 2025</td>
+    </tr>
+    <tr>
+        <th>Bubble Pop (A 2D Unity Game)</th>
+            <td>Bubble Pop is a 2D arcade-style game developed using the Unity game engine, where players tap or click on floating bubbles to pop them and score points. It was Made for Both Mobile and Pc at the same time and is published on Itch.io</td>
+        <td > 2023</td>
+        </tr>
+</table>
 
 </div>
 <hr>
-<div>
-<h2> Achivements </h2>
 
-</div>
-<hr>
-<div>
+<div id="Certification" >
 <h2> Certification </h2>
-
+<div class="Divs">
+<div>Unity Essentials Pathway - Unity </div>
+<div>Foundational C# with Microsoft - freeCodeCamp </div>
+<div>Programming in Java - NPTEL </div>
+</div>
 </div>
 <hr>
-<div>
+<div id="Education">
 <h2> Education </h2>
 
 </div>
 <hr>
-<footer>
+<div id="Contacts">
     <h2> Contact me </h2>
-</footer>
+</div>
 <hr>
 </body>
 </html>

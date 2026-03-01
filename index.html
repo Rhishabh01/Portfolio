@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* The parent container centers everything */
+  .container {
+    display: flex;            /* Positions children side-by-side */
+    justify-content: center;  /* Centers them horizontally */
+    align-items: center;      /* Centers them vertically */
+    height: 100vh;            /* Uses full height of the screen */
+    gap: 20px;                /* Adds space between the two divs */
+    background-color: #f4f4f9;
+  }
+
+  /* Styling for the side-by-side boxes */
+  .box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .box-1 { background-color: #3498db; }
+  .box-2 { background-color: #9b59b6; }
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box box-1">Box 1</div>
+    <div class="box box-2">Box 2</div>
+  </div>
+
+</body>
+</html>

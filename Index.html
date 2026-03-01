@@ -1,118 +1,7 @@
 <html>
 <head>
     <title>P.R Rhishabh Portfolio</title>
-
-
-    <style>
-        h2,h1,th,td{
-            
-            color:#2A3132;
-            font-family: sans-serif;
-        }
-
-        h3{
-                  
-                   font-family: sans-serif;
-                   color:#2A3132;
-        }
-
-        p{
-            color:#2A3132;
-            font-family:sans-serif;
-            width: 1000px;
-        }
-
-        
-
-        body{
-            background-color:#FCF6F5;
-        }
-
-        button{
-            padding-inline: 40px;
-            padding-block: 10px;
-            background-color: #A1BE95;
-            border-radius: 20px;
-            border-color: #FCF6F5;
-            cursor: pointer;
-        }
-
-        th{
-            
-            background-color: #A1BE95;
-        }
-        a{
-          all: unset;
-          cursor: pointer;
-          
-        }
-       .Divs{
-        background-color: #A1BE95;
-       background-color: #A1BE95;
-        text-align: center;
-        border-style: solid;
-        border-radius: 5px;
-        display: grid;  
-        justify-content: center;
-   
-    }
-    .Divs1{
-        
-        border-style: solid;
-        border-width: 5 px;
-        background-color: #A1BE95;
-        border-radius: 20px;
-        border-color: #add899;
-        display:block;  
-        flex-wrap: wrap;
-       
-    }
-
-    .Divs2{
-        
-        border-style: solid;
-        border-width: 5px;
-        background-color: #A1BE95;
-        border-radius: 5px;
-        float: left;
-        margin-left: 50px;
-        width: 200px;
-        text-align: center;
-        border-color: #add899;
-        font-family: sans-serif;
-    
-    }
-
-    img{
-        width: 550px;
-        height: 300px;
-        object-fit:contain;
-    }
-    
-
-    .Content{
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        flex-wrap:wrap;
-        text-wrap: wrap;
-    }
-
-       .Content1{
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-        flex-wrap:wrap;
-    }
-
-        .Content2{
-        display: flex;
-        gap: 10px;
-        
-        flex-wrap:wrap;
-    }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -178,20 +67,20 @@
 </div>
 <h3> Tools </h3>
 <div class="Content2">
-<div class="Divs2"> Unity Game Engine </div> 
-<div class="Divs2"> VS Code </div>
-<div class="Divs2"> VS Studio </div>
-<div class="Divs2"> Git and Github </div>
+<div class="Divs3"> Unity Game Engine </div> 
+<div class="Divs3"> VS Code </div>
+<div class="Divs3"> VS Studio </div>
+<div class="Divs3"> Git and Github </div>
 </div>
 <h3> WorkShops Attended </h3>
 <div class="Content2">
-<div class="Divs2"> AI - Work Sustaiablity </div> 
-<div class="Divs2"> Game Design WorkShop </div>
+<div class="Divs3"> AI - Work Sustaiablity </div> 
+<div class="Divs3"> Game Design WorkShop </div>
 </div>
 <hr>
-<div id="Education">
 <h2 style="text-align: center;"> Education </h2>
-        <table style="margin-left: auto;margin-right: auto;border-style: hidden; width: 1200px;height: 200px;text-align: center;" border="1">
+<div id="Education" style="padding-bottom: 80px;padding-top: 50px;">
+        <table style="margin-left: auto;margin-right: auto;border-style: hidden; width: 1200px;height: 200px;text-align: center;border-radius: 25px;" border="1">
             <thead>
                 <tr>
                     <th>Qualification</th>
@@ -225,12 +114,25 @@
 <hr>
 
 
-<footer style="text-align: center;" id="Contacts">
+<div style="text-align: center;" id="Contacts">
     <h2 style="text-align: center;"> Contact me </h2>
     <a href="https://www.linkedin.com/in/p-r-rhishabh8900/"><button>LinkedIn</button></a>
     <a href="https://github.com/Rhishabh01"><button>GitHub</button></a>
     <a href="https://xplorerdev.itch.io/"><button>Itch io</button></a>
     <a href="mailto:rhishabh89@example.com"><button>Mail Me</button></a>
+    <br>
+    <p> OR </p>
+    <form style="align-content:center;">
+    <p>Your Name <input type="text" style="width: 480px;height: 30px;margin-right: 30px;"></p>
+    <p>Message here:<input type="text" style="width: 480px;height: 200px;margin-right: 50px;"></p>
+    <button type="submit"> Submit</button>
+    <button type="reset"> Clear </button>      
+    </form>
+
+</div>
+<hr>
+<footer style="text-align: center;">
+    <p > Created By P.R Rhishabh  </p>
 </footer>
 </body>
 </html>

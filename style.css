@@ -1,0 +1,121 @@
+h2,h1,th,td{
+            
+            color:#2A3132;
+            font-family: sans-serif;
+        }
+
+        h3{
+                  
+                   font-family: sans-serif;
+                   color:#2A3132;
+        }
+
+        p{
+            color:#2A3132;
+            font-family:sans-serif;
+            
+        }
+
+        
+
+        body{
+            background-color:#FCF6F5;
+        }
+
+        button{
+            padding-inline: 40px;
+            padding-block: 10px;
+            background-color: #A1BE95;
+            border-radius: 20px;
+            border-color: #FCF6F5;
+            cursor: pointer;
+        }
+
+        th{
+            
+            background-color: #A1BE95;
+        }
+        a{
+          all: unset;
+          cursor: pointer;
+          
+        }
+       .Divs{
+        background-color: #A1BE95;
+       background-color: #A1BE95;
+        text-align: center;
+        border-style: solid;
+        border-radius: 5px;
+        display: grid;  
+        justify-content: center;
+   
+    }
+    .Divs1{
+        
+        border-style: solid;
+        border-width: 5 px;
+        background-color: #A1BE95;
+        border-radius: 20px;
+        border-color: #add899;
+        display:block;  
+        flex-wrap: wrap;
+       
+    }
+
+    .Divs2{
+        
+        border-style: solid;
+        border-width: 5px;
+        background-color: #A1BE95;
+        border-radius: 5px;
+        float: left;
+        margin-left: 50px;
+        width:100;
+        text-align: center;
+        border-color: #add899;
+        font-family: sans-serif;
+    
+    }
+     .Divs3{
+        
+        border-style: solid;
+        border-width: 5px;
+        background-color: #A1BE95;
+        border-radius: 5px;
+        float: left;
+        margin-left: 50px;
+        width:auto;
+        text-align: center;
+        border-color: #add899;
+        font-family: sans-serif;
+    
+    }
+
+    img{
+        width: 550px;
+        height: 300px;
+        object-fit:contain;
+    }
+    
+
+    .Content{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap:wrap;
+        text-wrap: wrap;
+    }
+
+       .Content1{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+
+        .Content2{
+        display: flex;
+        gap: 10px;
+        
+        flex-wrap:wrap;
+    }

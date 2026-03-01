@@ -9,6 +9,13 @@
             color:#2A3132;
             font-family: sans-serif;
         }
+
+        h3{
+                   text-align: center;
+                   font-family: sans-serif;
+                   color:#2A3132;
+        }
+
         p{
             color:#2A3132;
             font-family:sans-serif;
@@ -25,6 +32,8 @@
             padding-inline: 40px;
             padding-block: 10px;
             background-color: #A1BE95;
+            border-radius: 20px;
+            border-color: #FCF6F5;
         }
 
         th{
@@ -43,12 +52,27 @@
    
     }
     .Divs1{
+        
+        border-style: solid;
+        border-width: 5 px;
         background-color: #A1BE95;
-    
-        border-radius: 15px;
+        border-radius: 20px;
+        border-color: #add899;
         display:block;  
-        justify-content:center;
-    
+        flex-wrap: wrap;
+    }
+
+    .Divs2{
+        
+        border-style: solid;
+        border-width: 5 px;
+        background-color: #A1BE95;
+        border-radius: 5px;
+        border-color: #add899;
+        gap: 20px;
+        justify-content: center;
+        width: 400px;
+        display: flex;
     }
 
     img{
@@ -60,9 +84,9 @@
     .Content{
         display: flex;
         gap: 20px;
-        justify-content: left;
-        padding-left: 10px;
-        flex-wrap:wrap;
+        justify-content:center;
+        flex-wrap: wrap;
+        text-align: center;
     }
 
     .Content1{
@@ -72,10 +96,7 @@
         flex-wrap:wrap;
     }
 
-    button{
-        border-radius: 20px;
-        border-color: #FCF6F5;
-    }
+  
 
     </style>
 </head>
@@ -103,10 +124,10 @@
 
 <h2> My Projects </h2>
 <div class="Content">
-<div class="Divs1"><h1>KeyNest (Android Project)</h1> <p> KeyNest is an Android-based password management and generation application designed to securely store and manage user credentials. The app allows users to save passwords for different platforms in an encrypted format and generate strong, secure passwords to enhance online security. </p></div>
-<div class="Divs1"><h1>Iot-Based Water Level Monitoring (IoT Based)</h1> <p> The IoT-Based Water Level Monitoring System is a smart solution that measures and displays the water level in a tank in real time. It uses an ultrasonic sensor to detect the distance of water from the top of the tank and calculates the water level accordingly. The measured data is shown on an LCD screen, while LED lights indicate different water level conditions (low, medium, and high). </p></div>
-<div class="Divs1"><h1>Bubble Pop 2D Casual (Unity Game)</h1> <p> Bubble Pop is a 2D arcade-style game developed using the Unity game engine, where players tap or click on floating bubbles to pop them and score points. The game features smooth animations, increasing difficulty levels, and engaging sound effects to create an addictive and fun gameplay experience. </p></div>
-<div class="Divs1"><h1>MonoKeys 2D Platformer (Unity Game)</h1> <p> MonoKeys is a simple 2D platformer where the player must collect three keys to unlock and move to the next level. The game includes basic movement mechanics and scene management for smooth level transitions. It was made for a Game Jam Within 3 days</p></div>
+<a href="www.google.com" style="text-decoration: solid;"><div class="Divs1"><h1>KeyNest (Android Project)</h1> <p> KeyNest is an Android-based password management and generation application designed to securely store and manage user credentials. The app allows users to save passwords for different platforms in an encrypted format and generate strong, secure passwords to enhance online security. </p></div></a>
+<a href="www.google.com" style="text-decoration: solid;"><div class="Divs1"><h1>Iot-Based Water Level Monitoring (IoT Based)</h1> <p> The IoT-Based Water Level Monitoring System is a smart solution that measures and displays the water level in a tank in real time. It uses an ultrasonic sensor to detect the distance of water from the top of the tank and calculates the water level accordingly. The measured data is shown on an LCD screen, while LED lights indicate different water level conditions (low, medium, and high). </p></div></a>
+<a href="https://xplorerdev.itch.io/bubble-popin" style="text-decoration: solid;"><div class="Divs1"><h1>Bubble Pop 2D Casual (Unity Game)</h1> <p> Bubble Pop is a 2D arcade-style game developed using the Unity game engine, where players tap or click on floating bubbles to pop them and score points. The game features smooth animations, increasing difficulty levels, and engaging sound effects to create an addictive and fun gameplay experience. </p></div></a>
+<a href="https://xplorerdev.itch.io/monokeys" style="text-decoration: solid;"><div class="Divs1"><h1>MonoKeys 2D Platformer (Unity Game)</h1> <p> MonoKeys is a simple 2D platformer where the player must collect three keys to unlock and move to the next level. The game includes basic movement mechanics and scene management for smooth level transitions. It was made for a Game Jam Within 3 days</p></div></a>
 
 </div>
 
@@ -124,21 +145,27 @@
 </div>
 
 <hr>
+
 <div id="Skills">
 <h2> Skills </h2>
 <h3> Languages </h3>
-<p> C# ,
-HTML , CSS , JS,
-Python,
-Java,
-SQL </p>
+<div class="Content">
+<div class="Divs2"> C# </div> 
+<div class="Divs2"> HTML CSS  JS </div>
+<div class="Divs2"> Java </div>
+<div class="Divs2"> SQL </div>
+</div>
 <h3> Tools </h3>
-<p>Unity Game Engine
-, Git
-, VS Code
-, OpenCV</p>
-<h3> Workshops </h3>
-<p>  AI + Sustainability Workshop , Game Design WorkShop </p>
+<div class="Content">
+<div class="Divs2"> Unity Game Engine </div> 
+<div class="Divs2"> VS Code </div>
+<div class="Divs2"> VS Studio </div>
+<div class="Divs2"> Git and Github </div>
+</div>
+<h3> WorkShops Attended </h3>
+<div class="Content">
+<div class="Divs2"> AI - Work Sustaiablity </div> 
+<div class="Divs2"> Game Design WorkShop </div>
 </div>
 <hr>
 <div id="Education">

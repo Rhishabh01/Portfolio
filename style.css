@@ -35,8 +35,8 @@ h2,h1,th,td{
         #topbuttons{
             
             position: sticky;
-            top:2px;
-            
+            top:5px;
+            margin-left: 450px;
         }
 
         th{

@@ -32,12 +32,14 @@ h2,h1,th,td{
             
         }
 
-        #topbuttons{
-            
-            position: sticky;
-            top:5px;
-            margin-left: 450px;
-        }
+      #topbuttons {
+    position: sticky;
+    top: 5px;
+    display: flex;
+    justify-content: center;  
+    gap: 15px;                 
+    flex-wrap: wrap;          
+}
 
         th{
             

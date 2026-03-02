@@ -49,7 +49,7 @@ h2,h1,th,td{
         justify-content: center;  
         gap: 15px;                 
         flex-wrap: wrap;
-        background-color: aliceblue;          
+        background-color: aliceblue;      
         }
 
         th{
@@ -140,4 +140,11 @@ h2,h1,th,td{
 
     #Skills{
         padding-top: 50px;
+     
     }
+
+    #AboutMe{
+         scroll-margin-top: 100px;
+    }
+
+    

@@ -76,7 +76,8 @@ h2,h1,th,td{
     }
      .Divs3{
         
-        
+        border-color: #A1BE95;
+        border-width: 5px;
         background-color: #A1BE95;
         border-radius: 25px;
         float: left;

@@ -33,9 +33,7 @@ h2,h1,th,td{
         }
 
         #topbuttons{
-           
             
-            flex-wrap: wrap;
             position: sticky;
             top:10px;
             

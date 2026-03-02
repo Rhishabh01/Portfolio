@@ -29,6 +29,15 @@ h2,h1,th,td{
             border-radius: 20px;
             border-color: #FCF6F5;
             cursor: pointer;
+            
+        }
+
+        #topbuttons{
+            text-align: center;
+            flex-wrap: wrap;
+            position: sticky;
+            top:5px;
+            
         }
 
         th{
@@ -42,7 +51,7 @@ h2,h1,th,td{
         }
        .Divs{
         background-color: #A1BE95;
-       background-color: #A1BE95;
+        background-color: #A1BE95;
         text-align: center;
         border-style: solid;
         border-radius: 5px;

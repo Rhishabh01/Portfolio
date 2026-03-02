@@ -33,7 +33,8 @@ h2,h1,th,td{
         }
 
         #topbuttons{
-            text-align: center;
+            padding-left: 450px;
+            
             flex-wrap: wrap;
             position: sticky;
             top:10px;

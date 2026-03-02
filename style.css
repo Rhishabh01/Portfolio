@@ -77,15 +77,13 @@ h2,h1,th,td{
     }
      .Divs3{
         
-        border-style: solid;
-        border-width: 5px;
+        
         background-color: #A1BE95;
-        border-radius: 5px;
+        border-radius: 25px;
         float: left;
         margin-left: 50px;
         width:auto;
         text-align: center;
-        border-color: #add899;
         font-family: sans-serif;
     
     }

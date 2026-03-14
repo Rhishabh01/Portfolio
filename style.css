@@ -1,3 +1,7 @@
+html{
+scroll-behavior:smooth;
+}
+
 h2,h1,th,td{
             
             color:#2A3132;
@@ -30,6 +34,11 @@ h2,h1,th,td{
             border-color: #FCF6F5;
             cursor: pointer;
             
+        }
+
+        button:hover{
+            background-color: #839b79;
+            padding-inline: 45px;
         }
         
         #Profile{

@@ -21,6 +21,25 @@ h2,h1,th,td{
             
         }
         
+        #resumes{
+            text-align: center;
+             margin-left: auto;
+             margin-right: auto;
+             font-size: x-large;
+        }
+        #AM
+        {
+            text-align: center;
+             margin-left: auto;
+             margin-right: auto;
+             font-size: x-large;
+        }
+        #Descrip{
+            text-align: center;
+             margin-left: auto;
+             margin-right: auto;
+             font-size: x-large;
+        }
     
 
         body{
@@ -37,18 +56,20 @@ h2,h1,th,td{
             font-family: "Outfit", sans-serif;        
         }
 
-        #resume{
-             padding-inline: 40px;
+        #res{
+            padding-inline: 40px;
             padding-block: 10px;
             background-color: #A1BE95;
             border-radius: 20px;
             border-color: #FCF6F5;
             cursor: pointer;
+            text-align: center;
         }
 
         
-        #resume:hover{    
+        #res:hover{    
             background-color: #95bea9; 
+            font-size: 12px;
         }
 
         button:hover{

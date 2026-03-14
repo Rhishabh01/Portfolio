@@ -1,22 +1,27 @@
+html{
+scroll-behavior:smooth;
+}
+
 h2,h1,th,td{
             
             color:#2A3132;
-            font-family: sans-serif;
+            font-family: "Outfit", sans-serif;
         }
 
         h3{
                   
-                   font-family: sans-serif;
+                   font-family: "Outfit", sans-serif;
                    color:#2A3132;
         }
+        
 
         p{
             color:#2A3132;
-            font-family:sans-serif;
+            font-family: "Outfit", sans-serif;
             
         }
-
         
+    
 
         body{
             background-color:#FCF6F5;
@@ -29,7 +34,26 @@ h2,h1,th,td{
             border-radius: 20px;
             border-color: #FCF6F5;
             cursor: pointer;
-            
+            font-family: "Outfit", sans-serif;        
+        }
+
+        #resume{
+             padding-inline: 40px;
+            padding-block: 10px;
+            background-color: #A1BE95;
+            border-radius: 20px;
+            border-color: #FCF6F5;
+            cursor: pointer;
+        }
+
+        
+        #resume:hover{    
+            background-color: #95bea9; 
+        }
+
+        button:hover{
+            background-color:#95bea9;
+            font-size: 12px;
         }
         
         #Profile{
@@ -49,7 +73,7 @@ h2,h1,th,td{
         justify-content: center;  
         gap: 15px;                 
         flex-wrap: wrap;
-        background-color: aliceblue;      
+        
         }
 
         th{
@@ -69,7 +93,7 @@ h2,h1,th,td{
         border-radius: 5px;
         display: grid;  
         justify-content: center;
-   
+        font-family: "Outfit", sans-serif;
     }
     .Divs1{
         
@@ -80,9 +104,17 @@ h2,h1,th,td{
         border-color: #add899;
         display:block;  
         flex-wrap: wrap;
-       
+       font-family: "Outfit", sans-serif;
     }
 
+    .Divs1:hover{
+        background-color: #95bea9;
+        transform: translateY(-2px);
+    }
+    .Divs:hover{
+        background-color: #95bea9;
+        transform: translateY(-8px);
+    }
     .Divs2{
         
 
@@ -105,7 +137,7 @@ h2,h1,th,td{
         margin-left: 50px;
         width:250px;
         text-align: center;
-        font-family: sans-serif;
+        font-family: "Outfit", sans-serif;
     
     }
 
@@ -124,6 +156,8 @@ h2,h1,th,td{
         flex-wrap:wrap;
         text-wrap: wrap;
     }
+
+    
 
        .Content1{
         display: flex;

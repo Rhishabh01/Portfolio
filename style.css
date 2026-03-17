@@ -49,7 +49,7 @@ h2,h1,th,td{
         button{
             padding-inline: 40px;
             padding-block: 10px;
-            background-color: #A1BE95;
+            background-color: #b3daa2;
             border-radius: 20px;
             border-color: #FCF6F5;
             cursor: pointer;
@@ -59,7 +59,7 @@ h2,h1,th,td{
         #res{
             padding-inline: 40px;
             padding-block: 10px;
-            background-color: #A1BE95;
+            background-color: #b3daa2;
             border-radius: 20px;
             border-color: #FCF6F5;
             cursor: pointer;
@@ -136,16 +136,13 @@ h2,h1,th,td{
         background-color: #95bea9;
         transform: translateY(-8px);
     }
-    .Divs2{
-        
-
+    .Divs2{ 
         background-color: #A1BE95;
-        float: left;
-        margin-left: 50px;
-        width:100;
-        text-align: center;
+        width:100px;
+        height:30px;
+        text-align:center;
         border-radius: 25px;
-         font-family: "Outfit", sans-serif;
+        font-family: "Outfit", sans-serif;
     
     }
      .Divs3{
@@ -153,6 +150,7 @@ h2,h1,th,td{
         border-color: #A1BE95;
         border-width: 15px;
         background-color: #A1BE95;
+        height:30px;
         border-radius: 25px;
         float: left;
         margin-left: 50px;
@@ -195,11 +193,19 @@ h2,h1,th,td{
 
     #Skills{
         padding-top: 50px;
-     
+       
     }
 
     #AboutMe{
          scroll-margin-top: 100px;
     }
 
-    
+    #table1{
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        text-align: center;
+        border-radius: 5px;
+        text-wrap-style: pretty;
+        border-style:ridge;
+    }
